@@ -1,0 +1,525 @@
+/* phones */
+
+@media (max-width: 475px) {
+    body {
+        font-size: 13px;
+    }
+
+    /* header container */
+
+    .header-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* div header logo */
+
+    .header-container .header-logo {
+        padding-left: 20px;
+    }
+
+    /* logo icon */
+
+    .header-logo i {
+        font-size: 44px;
+    }
+
+    /* nav container */
+
+    .header-container .nav-container {
+        justify-items: center;
+    }
+
+    /* ul nav items */
+
+    .nav-container .nav-items {
+        width: 100%;
+        justify-content: end;
+        padding-right: 20px;
+    }
+
+    /* 4 li nav item */
+
+    .nav-items .nav-item {
+        display: none;
+    }
+
+    /* li responsive item */
+
+    .nav-items .responsive-item {
+        display: block;
+    }
+
+    /* a responsive link */
+
+    .responsive-item .responsive-link {
+        font-size: 20px;
+        color: var(--light-yellow);
+    }
+
+    /* main container */
+
+    .main-container {
+        height: 250rem;
+    }
+
+    /* cards title */
+
+    .main-container .cards-title {
+        height: 5rem;
+    }
+
+    /* cards title text h2 */
+
+    .cards-title h2 {
+        font-size: 24px;
+    }
+
+    /* cards container */
+
+    .main-container .cards-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        height: 245rem;
+    }
+
+    /* card items */
+
+    .cards-container .card-item {
+        height: 35rem;
+        width: 90%;
+    }
+
+    /* card item bottom title text */
+
+    .card-item-bottom-title h3 {
+        font-size: 15px;
+    }
+
+    /* card item bottom links */
+
+    .card-item-bottom ul li a {
+        width: 6.5rem;
+        height: 2rem;
+    }
+}
+
+/* big phones */
+
+@media (min-width: 476px) and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* header container */
+
+    .header-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* div header logo */
+
+    .header-container .header-logo {
+        padding-left: 26px;
+    }
+
+    /* logo icon */
+
+    .header-logo i {
+        font-size: 48px;
+    }
+
+    /* nav container */
+
+    .header-container .nav-container {
+        justify-items: center;
+    }
+
+    /* ul nav items */
+
+    .nav-container .nav-items {
+        width: 100%;
+        justify-content: end;
+        padding-right: 26px;
+    }
+
+    /* 4 li nav item */
+
+    .nav-items .nav-item {
+        display: none;
+    }
+
+    /* li responsive item */
+
+    .nav-items .responsive-item {
+        display: block;
+    }
+
+    /* a responsive link */
+
+    .responsive-item .responsive-link {
+        font-size: 22px;
+        color: var(--light-yellow);
+    }
+
+    /* main container */
+
+    .main-container {
+        height: 276rem;
+    }
+
+    /* cards title */
+
+    .main-container .cards-title {
+        height: 6rem;
+    }
+
+    /* cards title text h2 */
+
+    .cards-title h2 {
+        font-size: 28px;
+    }
+
+    /* cards container */
+
+    .main-container .cards-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        height: 270rem;
+    }
+
+    /* card items */
+
+    .cards-container .card-item {
+        height: 40rem;
+        width: 80%;
+    }
+
+    /* card item bottom title text */
+
+    .card-item-bottom-title h3 {
+        font-size: 16.5px;
+    }
+
+    /* card item bottom links */
+
+    .card-item-bottom ul li a {
+        width: 6.5rem;
+        height: 2rem;
+    }
+}
+
+/* landscape */
+
+@media (min-width: 601px) and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* header container */
+
+    .header-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* logo icon */
+
+    .header-logo i {
+        font-size: 52px;
+    }
+
+    /* nav container */
+
+    .header-container .nav-container {
+        justify-items: center;
+    }
+
+    /* ul nav items */
+
+    .nav-container .nav-items {
+        width: 100%;
+        justify-content: end;
+        padding-right: 32px;
+    }
+
+    /* 4 li nav item */
+
+    .nav-items .nav-item {
+        display: none;
+    }
+
+    /* li responsive item */
+
+    .nav-items .responsive-item {
+        display: block;
+    }
+
+    /* a responsive link */
+
+    .responsive-item .responsive-link {
+        font-size: 24px;
+        color: var(--light-yellow);
+    }
+
+    /* main container */
+
+    .main-container {
+        height: 110rem;
+    }
+
+    /* cards title */
+
+    .main-container .cards-title {
+        height: 7rem;
+    }
+
+    /* cards title text h2 */
+
+    .cards-title h2 {
+        font-size: 32px;
+    }
+
+    /* cards container */
+
+    .main-container .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        height: 100rem;
+    }
+
+    /* card items */
+
+    .cards-container .card-item {
+        height: 30rem;
+        width: 90%;
+    }
+
+    /* card item bottom title text */
+
+    .card-item-bottom-title h3 {
+        font-size: 18px;
+    }
+
+    /* card item bottom links */
+
+    .card-item-bottom ul li a {
+        width: 6.8rem;
+        height: 2.1rem;
+    }
+}
+
+/* tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 15px;
+    }
+
+    /* header container */
+
+    .header-container {
+        height: 10rem;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    /* header logo */
+
+    .header-container .header-logo {
+        padding-left: 0;
+        justify-items: center;
+    }
+    
+    /* logo icon */
+
+    .header-logo i {
+        font-size: 56px;
+    }
+
+    /* nav container */
+
+    .header-container .nav-container {
+        justify-items: center;
+    }
+
+    /* ul nav items */
+
+    .nav-container .nav-items {
+        width: 100%;
+    }
+
+    /* main container */
+
+    .main-container {
+        height: 120rem;
+    }
+
+    /* cards title */
+
+    .main-container .cards-title {
+        height: 8rem;
+    }
+
+    /* cards title text h2 */
+
+    .cards-title h2 {
+        font-size: 36px;
+    }
+
+    /* cards container */
+
+    .main-container .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        height: 110rem;
+    }
+
+    /* card items */
+
+    .cards-container .card-item {
+        height: 33rem;
+        width: 80%;
+    }
+
+    /* card item bottom title text */
+
+    .card-item-bottom-title h3 {
+        font-size: 19.5px;
+    }
+
+    /* card item bottom links */
+
+    .card-item-bottom ul li a {
+        width: 7.1rem;
+        height: 2.2rem;
+    }
+}
+
+/* big tablets and mini laptops */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* logo icon */
+
+    .header-logo i {
+        font-size: 56px;
+    }
+
+    /* ul nav items */
+
+    .nav-container .nav-items {
+        width: 60%;
+    }
+
+    /* main container */
+
+    .main-container {
+        height: 80rem;
+    }
+
+    /* cards title */
+
+    .main-container .cards-title {
+        height: 8rem;
+    }
+
+    /* cards title text h2 */
+
+    .cards-title h2 {
+        font-size: 40px;
+    }
+
+    /* cards container */
+
+    .main-container .cards-container {
+        height: 72rem;
+    }
+
+    /* card items */
+
+    .cards-container .card-item {
+        height: 31rem;
+    }
+
+    /* card item bottom title text */
+
+    .card-item-bottom-title h3 {
+        font-size: 21px;
+    }
+
+    /* card item bottom links */
+
+    .card-item-bottom ul li a {
+        width: 7.4rem;
+        height: 2.3rem;
+    }
+}
+
+/* laptop, notebook or mini notebook */
+
+@media (min-width: 1201px) and (max-width: 1348px) {
+    body {
+        font-size: 17px;
+    }
+
+    /* logo icon */
+
+    .header-logo i {
+        font-size: 60px;
+    }
+
+    /* ul nav items */
+
+    .nav-container .nav-items {
+        width: 55%;
+    }
+
+    /* main container */
+
+    .main-container {
+        height: 90rem;
+    }
+
+    /* cards title */
+
+    .main-container .cards-title {
+        height: 9rem;
+    }
+
+    /* cards title text h2 */
+
+    .cards-title h2 {
+        font-size: 44px;
+    }
+
+    /* cards container */
+
+    .main-container .cards-container {
+        height: 81rem;
+    }
+
+    /* card items */
+
+    .cards-container .card-item {
+        height: 35.5rem;
+    }
+
+    /* card item bottom title text */
+
+    .card-item-bottom-title h3 {
+        font-size: 22.5px;
+    }
+
+    /* card item bottom links */
+
+    .card-item-bottom ul li a {
+        width: 7.7rem;
+        height: 2.4rem;
+    }
+}
+
+/* large and x-large */
+
+/* 1349px and ∞ */
